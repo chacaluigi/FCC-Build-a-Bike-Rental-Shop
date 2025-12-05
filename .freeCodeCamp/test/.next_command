@@ -1,0 +1,51 @@
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l ../
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l ../../
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git log
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l ../
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote remove origin
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+touch test.txt
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/chacaluigi/FCC-Build-a-Bike-Rental-Shop.git
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git branch
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
