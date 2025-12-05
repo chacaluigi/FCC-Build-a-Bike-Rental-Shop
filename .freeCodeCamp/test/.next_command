@@ -310,3 +310,24 @@ history -a
 ./bike-shop.sh
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash list
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash apply stash@{1}
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git checkout stash@{1} -- bike_shop.sh
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git checkout stash@{1} -- bike-shop.sh
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash list
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /=/g'
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
