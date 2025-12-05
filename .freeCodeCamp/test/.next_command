@@ -130,3 +130,8 @@ sudo service postgresql start
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=postgres
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ubuntu --version
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
