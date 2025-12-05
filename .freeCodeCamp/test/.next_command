@@ -49,3 +49,35 @@ git push -u origin main
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "First commit"
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git pull
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -alh ../
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote remove coderoad
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+echo hello terminal
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
