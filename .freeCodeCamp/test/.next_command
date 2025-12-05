@@ -141,3 +141,6 @@ history -a
 cat /etc/os-release
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+touch bike-shop.sh
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
