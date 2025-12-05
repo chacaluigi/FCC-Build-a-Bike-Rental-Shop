@@ -253,3 +253,7 @@ history -a
 echo $?
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+[[ 1 =~ ^[0-9]$ ]]
+echo $?
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
