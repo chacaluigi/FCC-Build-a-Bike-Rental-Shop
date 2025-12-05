@@ -144,3 +144,9 @@ history -a
 touch bike-shop.sh
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto -l
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x bike-shop.sh
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
