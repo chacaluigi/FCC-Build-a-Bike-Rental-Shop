@@ -241,3 +241,7 @@ history -a
 ./bike-shop.sh
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+[[ a =~ [0-9] ]]
+echo $?
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
