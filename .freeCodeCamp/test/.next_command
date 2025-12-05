@@ -135,3 +135,9 @@ history -a
 ubuntu --version
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+lsb_release -a
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+cat /etc/os-release
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
