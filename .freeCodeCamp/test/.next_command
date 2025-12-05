@@ -331,3 +331,10 @@ echo '28 | Mountain'
 sed 's/ /=/g'
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+git add .
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git log --oneline
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
