@@ -338,3 +338,32 @@ git log --oneline
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "60 percent progress"
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git pull
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /=/g'
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git log --oneline
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /=/g'
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ //g'
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
