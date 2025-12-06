@@ -507,3 +507,28 @@ history -a
 ./bike-shop.sh
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto -a
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -alh
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash list
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash drop stash@{0}
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash list
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash clear
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git stash list
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
