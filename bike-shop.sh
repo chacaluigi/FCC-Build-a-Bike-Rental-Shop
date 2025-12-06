@@ -90,9 +90,10 @@ RENT_MENU() {
 }
 
 RETURN_MENU() {
-  #get customer info
-  #if not found
-  #send to main menu
+  # get customer info
+  echo -e "\nWhat's your phone number?"
+  # if not found
+  # send to main menu
 }
 
 EXIT(){
