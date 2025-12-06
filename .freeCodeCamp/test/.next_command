@@ -453,3 +453,6 @@ history -a
 echo "$(echo ' M e ' | sed 's/ $//g')."
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
+echo "$(echo ' M e ' | sed 's/ $//g')."
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
